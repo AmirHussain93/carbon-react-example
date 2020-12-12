@@ -1,38 +1,134 @@
 .App {
-  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.parent-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar-container {
+  position: relative;
+  width: 20%;
+  background-color: black;
+  color: #fff;
+  /* height: 747px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar-content {
+  padding: 20px;
+}
+
+.sidebar-header {
+  position: absolute;
+  top: 10%;
+}
+
+.sidebar-header .text {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.sidebar-footer {
+  position: absolute;
+  top: 90%;
+  padding-right: 20px;
+}
+
+.sidebar-footer .footer-text {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.sidebar-footer .footer-subtext {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.sidebar-header .sub-text {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.copyright {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+
+
+/* main container css */
+.main-container {
+  width: 80%;
+  height: auto;
+  background-color: #fff;
+}
+
+
+.form {
+  margin-top: 50px;
+}
+
+.form-header {
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.form-header-subtext {
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.highlighted-text {
+  color: #0662fe;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+.grid-box {
+  padding-left: 0px !important;
+}
+
+.mg-top {
+  margin-top: 20px;
+}
+
+.registration-button {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+/* login form  */
+
+.login-form {
+  width: 30%;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+
+.login-form .header {
+  margin-bottom: 50px;
+}
+
+.login-input-box {
+  margin-top: 40px;
+}
+
+.login-button {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+.login-forgot { 
+  float: right;
+  margin-top: 10px;
+  color: #0662fe;
+  font-size: 12px;
 }
