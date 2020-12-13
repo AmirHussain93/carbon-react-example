@@ -131,4 +131,12 @@
   margin-top: 10px;
   color: #0662fe;
   font-size: 12px;
+  cursor: pointer;
+}
+
+.go-to-login {
+  margin-top: 10px;
+  color: #0662fe;
+  font-size: 12px;
+  cursor: pointer;
 }

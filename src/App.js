@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import './App.css';
+import ForgotPassword from './components/forgot-password';
 import Login from './components/login';
 import Registration from './components/registration';
 
@@ -19,7 +20,7 @@ function App() {
       </Route>
       <Route exact path='/registration' component={Registration} />
       <Route exact path='/login' component={Login} />
-      <Route exact path='/employee/:id' component="" />
+      <Route exact path='/forgotpassword' component={ForgotPassword} />
     </Switch>
   </Router>
   );

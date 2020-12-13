@@ -1,22 +1,10 @@
 import React from 'react'
-import {
-  Content,
-  SideNav,
-  SideNavItems,
-  SideNavLink,
-  SideNavMenu,
-  SideNavMenuItem
-} from "carbon-components-react/lib/components/UIShell"
 
 function SideBar() {
     return (
         <div className="sidebar-container">
             <>
                 <div
-                    // isFixedNav
-                    // expanded={true}
-                    // isChildOfHeader={false}
-                    // aria-label="Side navigation"
                     className="sidebar-content"
                 >
                     <div className="sidebar-header">

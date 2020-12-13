@@ -30,6 +30,9 @@ function Registration(props) {
         setUser({ ...user, [event.target.name]: event.target.value })
     }
     
+    const handleRegistration = () => {
+        console.log("registration ", user)
+    }
     return (
         <div className="parent-div">
             <SideBar />
@@ -118,7 +121,10 @@ function Registration(props) {
                         </Row>
                         <Row className="mg-top">
                             <Column sm={4} md={8} lg={12}>
-                                <Button className="registration-button">
+                                <Button 
+                                    className="registration-button"
+                                    onClick={handleRegistration}
+                                >
                                     Continue with your free account
                                 </Button>
                             </Column>
